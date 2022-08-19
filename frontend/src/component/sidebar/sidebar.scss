@@ -1,0 +1,54 @@
+.sidebar{
+    flex: 1;
+  border-right: 0.5px solid rgb(230, 227, 227);
+  min-height: 100vh;
+  background-color: #d1f0eb;
+    flex: 1;
+    .logo{
+        display: flex;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    hr{
+        border: 1px soid ;
+        height: 0;
+        border: 0.5px solid rgb(230, 227, 227);
+    }
+    .mid{
+        ul{
+            list-style: none;
+            padding: 0;
+            li{
+                margin-left: 5px;
+                font-size: 15px;
+                padding: 5px;
+                cursor: pointer;
+               
+                &:hover{
+                    background-color: #1d5459;
+                    color: aliceblue;
+                }
+            }
+           
+        }
+        span{
+            display: flex;
+        }
+        .icon{
+            font-size: 20px;
+            vertical-align:-0.1875em;
+            margin-right: 5px;
+            color: #3cc2c7;
+        }
+    }
+    .title{
+       margin-left: 5px;
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 15px;
+        left: 0;
+       
+    }
+
+}
